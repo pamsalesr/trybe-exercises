@@ -28,7 +28,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 3-4: _HTML Semântico_
 - [X] 3-5: _[Projeto - HTML & CSS]()_
 
-##### Bloco 4: IntroduÃ§Ã£o - JavaScript :hourglass_flowing_sand
+##### Bloco 4: Introdução - JavaScript :hourglass_flowing_sand:
 
 - [X] 4-1: _JavaScript - Primeiros passos_
 - [ ] 4-2: _JavaScript - Array e loop For_
