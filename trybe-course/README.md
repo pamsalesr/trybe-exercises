@@ -1,1 +1,0 @@
-Esse repositorio foi criado para desenvolver os exercicios propostos pela Trybe.
