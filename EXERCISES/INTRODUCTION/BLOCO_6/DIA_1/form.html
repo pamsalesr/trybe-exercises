@@ -4,50 +4,58 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Resume Form</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bootstrap-5.0.0-beta1-dist/css/bootstrap.min.css">
+  <script src="jquery-3.5.1.min.js"></script>
+  <script src="bootstrap-5.0.0-beta1-dist/js/bootstrap.min.js"></script>
 </head>
 <body>
-<fieldset>
+<h1>Formulario para envio de curriculo</h1>
+<fieldset id="personal-info">
   <legend>Informacoes Pessoais</legend>
-  <form action="" method="GET" id="personal-info">
+  <form action="" method="GET">
     <label for="info-name">Nome
-      <input type="text" placeholder="Digite seu nome completo" required name="name" maxlength="40" id="info-name">
+      <input class="form-control" type="text" placeholder="Digite seu nome completo" required name="name" maxlength="40" id="info-name">
     </label>
     <label for="info-email">E-mail
-      <input type="text" placeholder="Digite seu e-mail" required name="email" maxlength="50" id="info-email">
+      <input class="form-control" type="text" placeholder="Digite seu e-mail" required name="email" maxlength="50" id="info-email">
     </label>
     <label for="info-cpf">CPF:
-      <input type="text" placeholder="Digite seu CPF" required name="cpf" maxlength="11" id="info-cpf">
+      <input class="form-control" type="text" placeholder="Digite seu CPF" required name="cpf" maxlength="11" id="info-cpf">
     </label>
     <label for="info-address">ENDEREÇO:
-      <input type="text" placeholder="Digite seu ENDEREÇO" required name="address" maxlength="200" id="info-address">
+      <input class="form-control" type="text" placeholder="Digite seu ENDEREÇO" required name="address" maxlength="200" id="info-address">
     </label>
     <label for="info-city">Cidade:
-      <input type="text" placeholder="Digite sua cidade" required name="city" maxlength="200" id="info-city">
+      <input class="form-control" type="text" placeholder="Digite sua cidade" required name="city" maxlength="200" id="info-city">
     </label>
     <label for="info-state">Estado:
-      <select name="state" id="info-state" required></select>
+      <select class="form-control" name="state" id="info-state" required></select>
     </label>
     <label for="info-residency-type">Tipo de moradia:
-      <input type ='radio' name="residency-type" id="info-residency-type" value='house' required>Casa</input>
-      <input type ='radio' name="residency-type" id="info-residency-type" value='apartment' required>Apartamento</input>
+      <input class="form-control" type ='radio' name="residency-type" id="info-residency-type" value='house' required>Casa</input class="form-control">
+      <input class="form-control" type ='radio' name="residency-type" id="info-residency-type" value='apartment' required>Apartamento</input class="form-control">
     </label>
   </form>
 </fieldset>
-<fieldset>
+<fieldset id="profissional-info">
   <legend>Ultima Experiencia Profissional</legend>
-  <form action="" method="GET" id="profissional-info">
+  <form action="" method="GET">
     <label for="info-cv-resume">Resumo do Curriculo:
-      <textarea id="info-cv-resume" name="cv-resume" maxlength="1000" required></textarea>
+      <textarea class="form-control" id="info-cv-resume" name="cv-resume" maxlength="1000" required></textarea>
     </label>
     <label for="info-position">Cargo:
-      <input type="text" placeholder="Digite seu ultimo cargo" required name="position" maxlength="40" id="info-position">
+      <input class="form-control" type="text" placeholder="Digite seu ultimo cargo" required name="position" maxlength="40" id="info-position">
     </label>
-    <label for="info-position-description">Cargo:
-      <input type="text" placeholder="Descreva seu ultimo cargo" required name="position-description" maxlength="500" id="info-position-description">
+    <label for="info-position-description">Descricao do Cargo:
+      <input class="form-control" type="text" placeholder="Descreva seu ultimo cargo" required name="position-description" maxlength="500" id="info-position-description">
+    </label>
+    <label for="">Data de inicio:
+      <input class="form-control" type="date" id="info-start-date" name="start-date" min="1900-01-01" max="2100-12-31">
     </label>
   </form>
 </fieldset>
+<button class="submit-button btn btn-success" type="button">Enviar</button>
+<button class="clear-button btn btn-success" type="button">Limpar</button>
 </body>
 <script src="script.js"></script>
 </html>
