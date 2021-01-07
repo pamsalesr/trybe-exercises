@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
     <title>TRYFLIX</title>
     <link rel="stylesheet" href="./style.css">
   </head>
@@ -10,9 +12,9 @@
     <header class="header-container">
       <nav class="menu-container">
         <ul>
-          <li>Cadastre-se</li>
-          <li>Conecte-se</li>
-          <li>Sobre</li>
+          <li><a href="">Cadastre-se</a></li>
+          <li><a href="">Conecte-se</a></li>
+          <li><a href="">Sobre</a></li>
         </ul>
       </nav>     
       <div class="logo-container">
@@ -22,6 +24,54 @@
         />
       </div>
     </header>
-    
+    <main class="main-container">
+      <div class="movie-container">
+        <section>
+          <h2>Assista hoje</h2>
+          <div class="card-container">
+            <div class="img" style="background-image: url('thesinner.jpg');" >
+              <div class="overlay"> 
+                <div class="text">Aqui vai um resumo do conteudo.</div>
+              </div>
+            </div>
+            <div class="img" style="background-image: url('theoffice.jpg');"></div>
+            <div class="img" style="background-image: url('xfiles.jpg');"></div>
+            <div class="img" style="background-image: url('matrix.jpg');"></div>
+            <div class="img" style="background-image: url('southpark.jpeg');"></div>
+            <div class="img" style="background-image: url('Lost.jpg');"></div>
+            <div class="img" style="background-image: url('tgp.jpg');"></div>
+            <div class="img" style="background-image: url('oneday.jpg');"></div>
+            <div class="img" style="background-image: url('seinfeld.jpg');"></div>
+          </div>
+        </section>
+        <article>
+          <h2>Mais assitidos</h2>
+          <div class="card-container">
+            <div class="img" style="background-image: url('harry.jpg');"></div>
+            <div class="img" style="background-image: url('hunters.jpg');"></div>
+            <div class="img" style="background-image: url('ricky.jpg');"></div>
+            <div class="img" style="background-image: url('rupaul.jpg');"></div>
+            <div class="img" style="background-image: url('morrobot.jpg');"></div>
+            <div class="img" style="background-image: url('mid.jpg');"></div>
+            <div class="img" style="background-image: url('june.jpg');"></div>
+            <div class="img" style="background-image: url('twilight.jpg');"></div>
+            <div class="img" style="background-image: url('umbrella.jpg');"></div>
+          </div>
+        </article>
+      </div>
+      
+      <aside class="aside-container">
+        <h3>Últimas notícias</h3>
+
+        <h4>Title</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet officia in provident esse excepturi ipsam!</p>
+
+        <h4>Title</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet officia in provident esse excepturi ipsam!</p>
+
+        <h4>Title</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet officia in provident esse excepturi ipsam!</p>
+      </aside>
+    </main>
   </body>
 </html>
