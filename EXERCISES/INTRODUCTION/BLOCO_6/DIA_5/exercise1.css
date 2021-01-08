@@ -1,11 +1,15 @@
 body {
-
+    margin: 5px;
 }
+
 h1 {
-
+    font-size: 1.5em;
+    text-align: center;
 }
-h2 {
 
+h2 {
+    font-size: 1.5em;
+    text-align: center;
 }
 
 img {
@@ -13,5 +17,49 @@ img {
 }
 
 figure {
-    margin: 0;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 1em;
+    text-align: justify;
+    margin: 0 20px;
+}
+
+.pictures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 0;
+}
+
+@media screen and (min-width: 680px) {
+    body {
+        background-color: #C5CBE3;
+        margin: 10px;
+    }   
+    
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+
+    img {
+        max-width: 100%;
+        min-width: 45%;
+        margin: 15px;
+    }
+
 }
