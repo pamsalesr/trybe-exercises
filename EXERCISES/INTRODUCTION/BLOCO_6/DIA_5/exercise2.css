@@ -9,10 +9,20 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
+body {
+  background-color: black;
+}
+
+header {
+  background-color: black;
+  color:	#a8e6cf	;
+}
+
 header p {
   font-size: 1.8em;
   margin: 5px;
   text-align: center;
+  padding-top: 15px;
 }
 
 header nav ul {
@@ -24,6 +34,13 @@ header nav ul {
   padding: 10px;
 }
 
+header nav ul li {
+  border: 1px solid whitesmoke;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px 0 rgb(196, 196, 196);
+  padding: 5px;
+}
+
 h1 {
   font-size: 1.5em;
   text-align: center;
@@ -33,25 +50,37 @@ h1 {
 h2 {
   font-size: 1em;
   margin-bottom: 10px;
+  margin-top: 10px;
   text-align: center;
 }
 
+.aside {
+  background-color: black;
+  height: 80%;
+  color: white;
+}
+
 .aside-one {
-  padding: 20px;
+
 }
 
 .aside-one ul {
-  list-style: none;
+  list-style-type: none;
   margin-left: 0;
   text-align: center;
   line-height: 1.3;
 }
 
 .aside-two ul {
-  list-style: none;
+  list-style-type: none;
   margin-left: 0;
   text-align: center;
   line-height: 1.3;
+}
+
+.main-content {
+  background-color: #3e3e3e;
+  color: whitesmoke;
 }
 
 .main-content p {
@@ -67,48 +96,71 @@ h3 {
   text-align: center;
 }
 
+footer {
+  color: blanchedalmond;
+}
+
 footer p {
   text-align: center;
 }
 
 @media screen and (min-width: 680px) {
+  body {
+    width: 100%;
+  }
+
   .aside {
+    max-width: 25%;
+    height: ;
+    text-align: justify;
+    padding: 20px;
+    position: fixed;
+    z-index: 0;
     display: flex;
     flex-direction: column;
-    width: 25%;
-    flex-grow: 15;
-    text-align: justify;
-    padding-left: 0;
   }
 
   .aside ul {
     text-align: left;
     line-height: 1.5;
     margin-left: 5px;
+
   }
 
   .aside-main-content {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
+    align-items: baseline;
   }
 
-  .aside-one {
-    padding: 0;
-    padding-bottom: 20px;
+  .container {
+    flex-wrap: wrap;
+    flex-direction: column;
   }
 
   .main-content {
-    max-width: 75%;
+    flex-basis: 75%;
+    display: flex;
+    align-items: flex-end;
   }
 
   .main-content p {
     margin-right: 25px;
     margin-left: 5px;
+    line-height: 1.9;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    flex-direction: column;
   }
 
   h2 {
     text-align: start;
+  }
+
+  footer {
+    z-index: 10;
+    position: static;
   }
 
 }
