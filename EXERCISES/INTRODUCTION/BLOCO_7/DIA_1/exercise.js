@@ -61,9 +61,9 @@ console.log(longestWord('Antônio foi no banheiro e não sabemos o que aconteceu
 
 const newString = string => string.replace('x', 'Pamela');
 const skills = ['HTML', 'JavaScript', 'CSS', 'Bash', 'DOM'];
-const skillsSorted = skills => skills.split(' ').sort((wordA, wordB) => wordB.length - wordA.length);
-console.log(skillsSorted(skills))
+const skillsSorted = skills.sort();
 console.log(newString('Tryber x aqui!'));
-
-
-
+console.log(`Minhas cinco principais habilidades são:`)
+for (let i = 0; i < skillsSorted.length; i += 1) {
+  console.log(`- ${skillsSorted[i]}`)
+}
