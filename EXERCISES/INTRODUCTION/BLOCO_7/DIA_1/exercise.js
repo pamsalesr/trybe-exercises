@@ -22,8 +22,8 @@ console.log(`Os numeros ${oddsAndEvens.sort((a, b) => a-b)} se encontram ordenad
 
 const factorial = number => {
   let result = 1;
-  for (let i = 2; i <= number; i +=1) {
-    result *= i
+  for (let i = 2; i <= number; i += 1) {
+    result = result * i
   }
   return result
 }

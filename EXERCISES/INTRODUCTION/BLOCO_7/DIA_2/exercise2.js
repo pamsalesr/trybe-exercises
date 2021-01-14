@@ -49,4 +49,38 @@ const getTotalStudents = (object) => {
 }
 console.log(getTotalStudents(allLessons));
 
-/* Crie uma função que obtenha o valor da chave de acordo com a sua posição no objeto. Por exemplo: */
+/* Crie uma função que obtenha o valor da chave de acordo com a sua posição no objeto. */
+
+const getValueByNumber = (obj,position) => Object.values(obj)[position];
+console.log(getValueByNumber(lesson1, 0));
+
+/* Crie uma função que verifique se o par (chave / valor) existe na função. Essa função deve possuir três parâmetros, sendo eles: o objeto, o nome da chave e o valor da chave. */
+const verifyPair = (obj, key, value) => {
+  const pairKeyValue = Object.entries(obj);
+  let isTrue = false;
+  for (i in pairKeyValue) {
+    if (pairKeyValue[i][0] === key && pairKeyValue[i][1] === value) {
+      isTrue = true;
+    } 
+  }
+  return isTrue;
+}
+
+console.log(verifyPair(lesson3, 'turno', 'noite'));
+
+/* Crie uma função para contar quantos estudantes assistiram às aulas de Matemática. Use o objeto criado no exercício 5. */
+const mathStudents = obj => {
+  let values = Object.values(obj);
+  let numberOfStudents = 0;
+  for (i in values) {
+    if (values[0] === 'Matemática') {
+      numberOfStudents += values[1]
+    } else {
+      numberOfStudents += 0;
+    }
+  }
+  return numberOfStudents
+}
+
+console.log(mathStudents(allLessons));
+console.log(values);
