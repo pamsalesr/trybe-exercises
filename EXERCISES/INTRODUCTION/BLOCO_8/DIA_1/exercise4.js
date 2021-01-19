@@ -111,8 +111,8 @@ const expectedResult = [
 // Ordene os livros por data de lançamento em ordem decrescente.
 
 function booksOrderedByReleaseYearDesc() {
-  return books.sort((a, b) => a -b);
+  return books.sort((a, b) => b.releaseYear - a.releaseYear);
 }
 
-console.log(booksOrderedByReleaseYearDesc());
+// console.log(booksOrderedByReleaseYearDesc());
 assert.deepStrictEqual(booksOrderedByReleaseYearDesc(), expectedResult);
