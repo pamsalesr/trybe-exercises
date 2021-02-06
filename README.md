@@ -6,7 +6,7 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vi
 
 O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
 
-## Fundamentos doDesenvolvimento Web :hourglass_flowing_sand:
+## Fundamentos doDesenvolvimento Web :white_check_mark:
 
 ##### Bloco 1: Introdução - Unix & Shell :white_check_mark:
 
@@ -57,37 +57,37 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 6-5: _CSS Responsivo - Mobile First_
 - [X] 6-6: _[Projeto - Página inicial do Facebook]()_
 
-##### Bloco 7: JavaScript ES6 & Testes Unitários :hourglass_flowing_sand:
+##### Bloco 7: JavaScript ES6 & Testes Unitários :white_check_mark:
 
 - [X] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
 - [X] 7-2: _JavaScript ES6 - Objects_
-- [ ] 7-3: _Testes unitários em JavaScript_
-- [ ] 7-4: _[Projeto - JavaScript Testes UnitÃ¡rios]()_
+- [X] 7-3: _Testes unitários em JavaScript_
+- [X] 7-4: _[Projeto - JavaScript Testes UnitÃ¡rios]()_
 
-##### Bloco 8: JavaScript ES6
+##### Bloco 8: JavaScript ES6 :white_check_mark:
 
-- [ ] 8-1: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
-- [ ] 8-2: _JavaScript ES6 - Higher Order Functions - map e filter_
-- [ ] 8-3: _JavaScript ES6 - Higher Order Functions - reduce_
-- [ ] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
-- [ ] 8-5: _[Projeto - Zoo functions]()_
+- [X] 8-1: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
+- [X] 8-2: _JavaScript ES6 - Higher Order Functions - map e filter_
+- [X] 8-3: _JavaScript ES6 - Higher Order Functions - reduce_
+- [X] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
+- [X] 8-5: _[Projeto - Zoo functions]()_
 
-##### Bloco 9: Assincronicidade & Callbacks
+##### Bloco 9: Assincronicidade & Callbacks :white_check_mark:
 
-- [ ] 9-1: _JavaScript Assíncrono e Callbacks_
-- [ ] 9-2: _JavaScript Promises_
-- [ ] 9-3: _[Projeto - Carrinho de Compras]()_
+- [X] 9-1: _JavaScript Assíncrono e Callbacks_
+- [X] 9-2: _JavaScript Promises_
+- [X] 9-3: _[Projeto - Carrinho de Compras]()_
 
-##### Bloco 10: Jest
+##### Bloco 10: Jest :white_check_mark:
 
-- [ ] 10-1: _Primeiros passos no Jest_
-- [ ] 10-2: _Jest - Testes Assí­ncronos_
-- [ ] 10-3: _Jest - Simulando comportamentos_
+- [X] 10-1: _Primeiros passos no Jest_
+- [X] 10-2: _Jest - Testes Assí­ncronos_
+- [X] 10-3: _Jest - Simulando comportamentos_
 - [ ] 10-4: _[Projeto - Jest AssÃ­ncrono e Mocking]()_
 
-## Desenvolvimento Front-end 
+## Desenvolvimento Front-end :hourglass_flowing_sand:
 
-##### Bloco 11: Introdução - React
+##### Bloco 11: Introdução - React :hourglass_flowing_sand:
 
 - [ ] 11-1: _'Hello, world!' no React!_
 - [ ] 11-2: _Componentes React_
