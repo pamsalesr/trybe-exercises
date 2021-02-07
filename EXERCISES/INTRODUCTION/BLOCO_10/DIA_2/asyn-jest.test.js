@@ -16,7 +16,7 @@ test("Não deveria passar!", (done) => {
   }, 500);
 });
 */
-/*
+
 const SumNumbers = (a, b, callback) => {
   setTimeout(() => {
     const result = a + b;
@@ -30,7 +30,7 @@ test('Testando SumNumbers, soma 5 mais 10', (done) => {
     done();
   });
 });
-*/
+
 
 // PROMISES
 /*
