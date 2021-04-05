@@ -1,3 +1,5 @@
+import { SAVE_VALUES } from '../actions';
+
 const INITIAL_STATE = {
   feedback: '',
   favoriteColor: '',
@@ -6,15 +8,15 @@ const INITIAL_STATE = {
 }
 
 function saveReducer(state = INITIAL_STATE, action) {
-  if(action.type === 'SAVE_VALUES') {
-    return {
-      feedback: action.feedback,
-      favoriteColor: action.favoriteColor,
-      isVegan: action.isVegan,
-      formularioComErros: action.formularioComErros,
-    }
+  switch(action.type) {
+    case SAVE_VALUES:
+      return { 
+        ...state,
+        feedback: action.feedback,
+      }
+    default:
+      return state;
   }
-  return state;
 }
 
 export default saveReducer;
