@@ -1,3 +1,4 @@
+// 1 - Crie uma função que leia todos os dados do arquivo e imprima cada personagem no formato id - Nome . 1 - Homer Simpson .
 const fs = require('fs').promises;
 
 fs.readFile('./simpsons.json', 'utf8')
