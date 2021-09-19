@@ -85,7 +85,7 @@ The program has more than **1,500 hours** of classroom and online classes and co
 - [X] 10-3: _Jest - Mocking Behaviours_
 - [X] 10-4: _[Project - Asynchronous Jest and Mocking]()_
 
-## Front-End Development :hourglass_flowing_sand:
+## Front-End Development ✅
 
 ##### Block 11: Introduction - React :white_check_mark:
 
@@ -111,133 +111,133 @@ The program has more than **1,500 hours** of classroom and online classes and co
 - [X] 14-1: _Agile Methodologies_
 - [X] 14-2: _[Project - Frontend Online Store]()_
 
-##### Block 15: React Tests :hourglass_flowing_sand:
+##### Block 15: React Tests :white_check_mark:
 
-- [ ] 15-1: _Testing React with React Testing Library_
-- [ ] 15-2: _Testing React with React Testing Library - Part 2_
-- [ ] 15-3: _[Project - React Tests]()_
+- [X] 15-1: _Testing React with React Testing Library_
+- [X] 15-2: _Testing React with React Testing Library - Part 2_
+- [X] 15-3: _[Project - React Tests]()_
 
-##### Block 16: Getting Started with Redux
+##### Block 16: Getting Started with Redux :white_check_mark:
 
-- [ ] 16-1: _Getting Started with Redux_
-- [ ] 16-2: _React with Redux - Part 1_
-- [ ] 16-3: _React with Redux - Practice_
-- [ ] 16-4: _React with Redux - Part 2_
-- [ ] 16-5: _Synchronous Tests with React-Redux_
-- [ ] 16-6: _[Project - Table with data filters]()_
+- [X] 16-1: _Getting Started with Redux_
+- [X] 16-2: _React with Redux - Part 1_
+- [X] 16-3: _React with Redux - Practice_
+- [X] 16-4: _React with Redux - Part 2_
+- [X] 16-5: _Synchronous Tests with React-Redux_
+- [X] 16-6: _[Project - Table with data filters]()_
 
-##### Block 17: React Project
+##### Block 17: React Project :white_check_mark:
 
-- [ ] 17-1: _[Project - Trivia Game]()_
+- [X] 17-1: _[Project - Trivia Game]()_
 
-##### Block 18: React & Context API
+##### Block 18: React & Context API :white_check_mark:
 
-- [ ] 18-1: _React Context API_
-- [ ] 18-2: _React Hooks - useState and useContext_
-- [ ] 18-3: _React Hooks - useEffect and Hooks customizados_
-- [ ] 18-4: _[Projecto - StarWars Datatable with Context API and Hooks]()_
+- [X] 18-1: _React Context API_
+- [X] 18-2: _React Hooks - useState and useContext_
+- [X] 18-3: _React Hooks - useEffect and Hooks customizados_
+- [X] 18-4: _[Projecto - StarWars Datatable with Context API and Hooks]()_
 
-##### Block 19: Final Front-end Project
+##### Block 19: Final Front-end Project :white_check_mark:
 
-- [ ] 19-1: _[Project - Recepies App]()_
+- [X] 19-1: _[Project - Recepies App]()_
 
-## Back-end Development
+## Back-end Development :white_check_mark:
 
-##### Block 20: Introduction - Relational Databases
+##### Block 20: Introduction - Relational Databases :white_check_mark:
 
-- [ ] 20-1: _SQL database_
-- [ ] 20-2: _Finding data in a database_
-- [ ] 20-3: _Filtering data specifically_
-- [ ] 20-4: _Manipulating tables_
-- [ ] 20-5: _[Project - All For One]()_
+- [X] 20-1: _SQL database_
+- [X] 20-2: _Finding data in a database_
+- [X] 20-3: _Filtering data specifically_
+- [X] 20-4: _Manipulating tables_
+- [X] 20-5: _[Project - All For One]()_
 
-##### Block 21: Relational Databases
+##### Block 21: Relational Databases :white_check_mark:
 
-- [ ] 21-1: _Most used functions in SQL_
-- [ ] 21-2: _Uncomplicating JOINs and UNIONs_
-- [ ] 21-3: _Stored Routines & Subqueries_
-- [ ] 21-4: _[Project - Vocabulary Booster]()_
+- [X] 21-1: _Most used functions in SQL_
+- [X] 21-2: _Uncomplicating JOINs and UNIONs_
+- [X] 21-3: _Stored Routines & Subqueries_
+- [X] 21-4: _[Project - Vocabulary Booster]()_
 
-##### Bloc 22: Relational Databases
+##### Bloc 22: Relational Databases :white_check_mark:
 
-- [ ] 22-1: _Transforming ideas into a database model_
-- [ ] 22-2: _Normalization and Normal Forms and Dumps_
-- [ ] 22-2: _Transforming ideas into a database model - Part 2_
-- [ ] 22-3: _[Project - One For All]()_
+- [X] 22-1: _Transforming ideas into a database model_
+- [X] 22-2: _Normalization and Normal Forms and Dumps_
+- [X] 22-2: _Transforming ideas into a database model - Part 2_
+- [X] 22-3: _[Project - One For All]()_
 
-##### Block 23: Introduction - NoSQL
+##### Block 23: Introduction - NoSQL :white_check_mark:
 
-- [ ] 23-1: _MongoDB - Introduction_
-- [ ] 23-2: _Filter Operators_
-- [ ] 23-3: _[Project - Data Flights]()_
+- [X] 23-1: _MongoDB - Introduction_
+- [X] 23-2: _Filter Operators_
+- [X] 23-3: _[Project - Data Flights]()_
 
-##### Bloco=k 24: Updates
+##### Block 24 - Updates :white_check_mark:
 
-- [ ] 24-1: _Simple Updates_
-- [ ] 24-2: _Complex Updates - Arrays - Part 1_
-- [ ] 24-3: _Complex Updates - Arrays - Parte 2_
-- [ ] 24-4: _[Project - Commerce]()_
+- [X] 24-1: _Simple Updates_
+- [X] 24-2: _Complex Updates - Arrays - Part 1_
+- [X] 24-3: _Complex Updates - Arrays - Parte 2_
+- [X] 24-4: _[Project - Commerce]()_
 
-##### Block 25: Aggregation Framework
+##### Block 25: Aggregation Framework :white_check_mark:
 
-- [ ] 25-1: _Aggregation Framework - Part 1_
-- [ ] 25-2: _Aggregation Framework - Part 2_
-- [ ] 25-3: _[Project - Aggregations]()_
+- [X] 25-1: _Aggregation Framework - Part 1_
+- [X] 25-2: _Aggregation Framework - Part 2_
+- [X] 25-3: _[Project - Aggregations]()_
 
-##### Block 26: Intro - NodeJS
+##### Block 26: Intro - NodeJS :white_check_mark:
 
-- [ ] 26-1: _NodeJS - Introduction_
-- [ ] 26-2: _NodeJS - Asynchronous Flow_
-- [ ] 26-3: _NodeJS - Architecture
-- [ ] 26-4: _[Project - A CLI of Ice and Fire]()_
+- [X] 26-1: _NodeJS - Introduction_
+- [X] 26-2: _NodeJS - Asynchronous Flow_
+- [X] 26-3: _NodeJS - Architecture
+- [X] 26-4: _[Project - A CLI of Ice and Fire]()_
 
-##### Block 27: NodeJS
+##### Block 27: NodeJS :white_check_mark:
 
-- [ ] 27-1: _Express: HTTP with Node.js_
-- [ ] 27-2: _Software Architecture - Introduction to MVC_
-- [ ] 27-3: _[Project - Cookmaster]()_
+- [X] 27-1: _Express: HTTP with Node.js_
+- [X] 27-2: _Software Architecture - Introduction to MVC_
+- [X] 27-3: _[Project - Cookmaster]()_
 
-##### Block 28: NodeJS
+##### Block 28: NodeJS :white_check_mark:
 
-- [ ] 28-1: _Software Architecture - Service Layer_
-- [ ] 28-2: _Web Architecture - Rest and Restful_
-- [ ] 28-3: _[Project - Store Manager]()_
+- [X] 28-1: _Software Architecture - Service Layer_
+- [X] 28-2: _Web Architecture - Rest and Restful_
+- [X] 28-3: _[Project - Store Manager]()_
 
-##### Block 29: NodeJS
+##### Block 29: NodeJS :white_check_mark:
 
-- [ ] 29-1: _NodeJS - JWT - (JSON Web Token)_
-- [ ] 29-2: _NodeJS - Files upload with Multer_
-- [ ] 29-3: _[Project - Cookmaster V2]()_
+- [X] 29-1: _NodeJS - JWT - (JSON Web Token)_
+- [X] 29-2: _NodeJS - Files upload with Multer_
+- [X] 29-3: _[Project - Cookmaster V2]()_
 
-##### Block 30: Introduction - Deploy
+##### Block 30: Introduction - Deploy :white_check_mark:
 
-- [ ] 30-1: Infrastructure - Deploy with Heroku_
-- [ ] 30-2: _Deploy - Process Managers_
-- [ ] 30-3: _[Project - Stranger Things]()_
+- [X] 30-1: Infrastructure - Deploy with Heroku_
+- [X] 30-2: _Deploy - Process Managers_
+- [X] 30-3: _[Project - Stranger Things]()_
 
-##### Block 31: Project
+##### Block 31: Project :white_check_mark:
 
-- [ ] 31-1: _[Project - Trybeer]()_
+- [X] 31-1: _[Project - Trybeer]()_
 
-##### Block 32: Software Architecture
+##### Block 32: Software Architecture :white_check_mark:
 
-- [ ] 32-1: Architecture - SOLID_
-- [ ] 32-2: _ORM - App interface with databse_
-- [ ] 32-3: _Software Architecture - DDD_
-- [ ] 32-4: _Good practice in writing tests_
-- [ ] 32-3: _[Project - Blogs API]()_
+- [X] 32-1: Architecture - SOLID_
+- [X] 32-2: _ORM - App interface with databse_
+- [X] 32-3: _Software Architecture - DDD_
+- [X] 32-4: _Good practice in writing tests_
+- [X] 32-3: _[Project - Blogs API]()_
 
-##### Block 33: Sockets
+##### Block 33: Sockets :white_check_mark:
 
-- [ ] 30-1: _Sockets - TCP/UDP & NET_
-- [ ] 30-2: _Sockets - Socket.io_
-- [ ] 30-3: _[Project - Webchat]()_
+- [X] 30-1: _Sockets - TCP/UDP & NET_
+- [X] 30-2: _Sockets - Socket.io_
+- [X] 30-3: _[Project - Webchat]()_
 
-##### Block 34: Project
+##### Block 34: Project :white_check_mark:
 
-- [ ] 34-1: _[Project - Trybeer V2]()_
+- [X] 34-1: _[Project - Trybeer V2]()_
 
-## Computer Science
+## Computer Science :hourglass_flowing_sand:
 
 ##### Block 35: Introduction - Computer Science
 
